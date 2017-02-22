@@ -7,9 +7,9 @@ def connect(rpt):
 	rep = openreport(rpt)
 	tbl = rep.Database.Tables.Item(1)
 	prop = tbl.ConnectionProperties('Password')
-	prop.Value = "Stony123!"
+	prop.Value = ""
 	prop = tbl.ConnectionProperties('Server')
-	prop.Value = 'ADCHEMVDX'
+	prop.Value = ''
 	return rep
 
 def openreport(name):
