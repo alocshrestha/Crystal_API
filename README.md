@@ -1,5 +1,4 @@
-<snippet>
-  <content><![CDATA[
+
 ## Crystal_API
 Crystal Reports API for Python using Flask
 
@@ -7,9 +6,6 @@ Crystal Reports API for Python using Flask
 To Run crystal reports within Flask and Python
 
 ## Instruction
-Make a output folder - Where your output files will be stored
+Make a output folder - Where your output files will be stored\n
 Make a reports folder - Where your crystal reports .rpt will be stored
 
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
